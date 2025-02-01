@@ -36,3 +36,4 @@ Similarly run the same commands for the part 2 just change the file name in the 
    ```
    python3 question3_1.py
    ```
+9. In 2nd part of 3rd question , we inspected each given website (canarabank.in , github.com , netflix.com ) and collected require details (e.g request line , performance , ip address , Header details etc...) and also found https errors.
