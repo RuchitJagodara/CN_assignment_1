@@ -2,6 +2,8 @@
 
 1. Install dependencies.
    ```
+   sudo apt update
+   sudo apt upgrade
    sudo apt install python3-scapy
    sudo apt install python3-matplotlib
    ```  
@@ -23,3 +25,14 @@
    flow dictionaries, and approximate capture speed based on replay traffic.
 
 Similarly run the same commands for the part 2 just change the file name in the test_sniffer.sh script and it will work similarly for part 2 (i.e. replace the name sniffer.py with question_2.py).
+
+6. Now, for the 3rd questions' first part, first start capturing packets using wireshark on the wifi, to open the wireshark you can run below command,
+   ```
+   sudo apt install wireshark
+   sudo wireshark
+   ```
+7. After visiting few websites, first stop the capturing packets from wireshark and save the packets in a pcap file, save the file using the name `question3.pcapng`.
+8. Now, run the script question3_1.py using below command (please change the file path if required):
+   ```
+      python3 question3_1.py
+   ```
