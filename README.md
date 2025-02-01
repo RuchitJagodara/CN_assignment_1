@@ -34,5 +34,5 @@ Similarly run the same commands for the part 2 just change the file name in the 
 7. After visiting few websites, first stop the capturing packets from wireshark and save the packets in a pcap file, save the file using the name `question3.pcapng`.
 8. Now, run the script question3_1.py using below command (please change the file path if required):
    ```
-      python3 question3_1.py
+   python3 question3_1.py
    ```
