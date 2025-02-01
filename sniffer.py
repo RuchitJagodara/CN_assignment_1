@@ -94,7 +94,6 @@ if __name__ == "__main__":
     iface = sys.argv[1]
     print(f"Listening on interface: {iface}")
     try:
-        # filter out DHCP, MDNS, ICMPv6
         sniff(iface=iface, prn=handle_packet, store=False)
     except KeyboardInterrupt:
         pass
